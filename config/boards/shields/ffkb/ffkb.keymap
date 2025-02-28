@@ -111,7 +111,7 @@
 
             bindings = <
      &gresc     &kp Q         &kp W        &kp E       &kp R         &kp T                              &kp Y        &kp U          &kp I       &kp O         &kp P   &none
-     &kp TAB    &lt OTH A  &lt SYM S   &lt NAV D &hs LSHIFT F  &kp G                                &mt LG(LALT) H  &hs LSHIFT J &lt NAV K &lt SYM L &lt OTH SEMI &none
+     &kp TAB    &lt OTH A  &lt SYM S   &lt NAV D &hs LSHIFT F  &kp G                                &mt LG(LALT) H  &hs LSHIFT J &lt NAV K &lt SYM L &lt OTH SQT &none
     &kp LSHIFT &mt LSHIFT Z       &kp X     &mt LCTL C &mt LALT V &mt LGUI B              &mt RCTL N &mt RALT M &mt RGUI COMMA &kp DOT   &mt RSHIFT FSLH &none
                               &mt LSHFT UNDER  &kp LGUI  &mt LC(LS(LALT)) BSPC                      &mt LC(LS(LALT)) SPACE &mt LG(LC(LS(LALT))) ENTER  &mt RSHFT MINUS
             >;
@@ -134,7 +134,7 @@
 
             bindings = <
     &kp TILDE   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6   &kp N7 &kp N8  &kp N9   &kp N0    &kp EQUAL 
-    &kp TILDE   &none      &none      &none      &none      &none                     &none    &none  &none   &none    &kp SQT   &none  
+    &kp TILDE   &none      &none      &none      &none      &none                     &none    &none  &none   &none    &kp SEMI   &none  
     &kp LSHIFT  &none      &none      &none      &none      &none                     &none    &none  &none   &none    &none     &none 
                                               &trans        &kp LALT      &kp BSPC        &kp LC(LEFT)   &kp LC(UP)    &kp LC(RIGHT)
             >;
@@ -145,7 +145,7 @@
 
             bindings = <
     &kp GRAVE  &kp EXCL &kp AT &kp HASH  &kp DOLLAR &kp PRCNT                             &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR    &kp EQUAL
-    &trans     &tdclr    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3              &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT   &kp SQT    &trans
+    &trans     &tdclr    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3              &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT   &kp COLON    &trans
     &kp LSHIFT &trans   &trans       &trans      &trans       &tdrst                      &tdrst &none   &none  &none &none &none  
                                              &trans        &kp LALT      &kp BSPC        &kp LC(LEFT)   &kp LC(UP)    &kp LC(RIGHT)     
             >;
